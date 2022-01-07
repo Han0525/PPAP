@@ -11,13 +11,16 @@
     <form id="form1" runat="server">
         <div aria-atomic="False" aria-disabled="False" aria-grabbed="true">
             <asp:Label ID="L1" runat="server" Text="主菜"></asp:Label><br />
-            <asp:CheckBoxList ID="CheckBoxList1" runat="server" CausesValidation="True" RepeatLayout="OrderedList">
-                <asp:ListItem>牛肉麵 $100 </asp:ListItem>
-                <asp:ListItem>牛肉湯麵$70 </asp:ListItem>
-                <asp:ListItem>牛肉湯餃$80 </asp:ListItem>
-                <asp:ListItem>酸辣湯麵$70</asp:ListItem>
-                <asp:ListItem>酸辣湯餃$80</asp:ListItem>
-            </asp:CheckBoxList><br />
+            <asp:CheckBox ID="CheckBox1" runat="server" Text="牛肉麵$100" />     <asp:Label ID="Label2" runat="server" Text="數量"></asp:Label> 
+            <br />
+            <asp:CheckBox ID="CheckBox2" runat="server" Text="牛肉湯麵$70" />    <asp:Label ID="Label3" runat="server" Text="數量"></asp:Label>
+            <br />
+            <asp:CheckBox ID="CheckBox3" runat="server" Text="牛肉湯餃$80" />    <asp:Label ID="Label4" runat="server" Text="數量"></asp:Label>
+            <br />
+            <asp:CheckBox ID="CheckBox4" runat="server" Text="酸辣湯麵$70" />    <asp:Label ID="Label5" runat="server" Text="數量"></asp:Label>
+            <br />
+            <asp:CheckBox ID="CheckBox5" runat="server" Text="酸辣湯餃$80" />    <asp:Label ID="Label6" runat="server" Text="數量"></asp:Label>
+            <br />
             <asp:Label ID="L2" runat="server" Text="小菜一盤 30元"></asp:Label>
 
             <asp:DropDownList ID="DropDownList1" runat="server" Font-Size="Medium" Font-Strikeout="False" Font-Underline="False" Height="40px" Width="100px" Font-Bold="False" Font-Italic="False" ValidateRequestMode="Enabled">
