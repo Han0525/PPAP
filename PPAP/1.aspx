@@ -12,9 +12,9 @@
         <div aria-atomic="False" aria-disabled="False" aria-grabbed="true">
             <asp:Label ID="L1" runat="server" Text="主菜"></asp:Label><br />
             <asp:CheckBoxList ID="CheckBoxList1" runat="server" CausesValidation="True" RepeatLayout="OrderedList">
-                <asp:ListItem>牛肉麵 $100</asp:ListItem>
-                <asp:ListItem>牛肉湯麵$70</asp:ListItem>
-                <asp:ListItem>牛肉湯餃$80</asp:ListItem>
+                <asp:ListItem>牛肉麵 $100 </asp:ListItem>
+                <asp:ListItem>牛肉湯麵$70 </asp:ListItem>
+                <asp:ListItem>牛肉湯餃$80 </asp:ListItem>
                 <asp:ListItem>酸辣湯麵$70</asp:ListItem>
                 <asp:ListItem>酸辣湯餃$80</asp:ListItem>
             </asp:CheckBoxList><br />
