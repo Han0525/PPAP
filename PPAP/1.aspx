@@ -18,7 +18,7 @@
                 <asp:ListItem>酸辣湯麵$70</asp:ListItem>
                 <asp:ListItem>酸辣湯餃$80</asp:ListItem>
             </asp:CheckBoxList><br />
-            <asp:Label ID="L2" runat="server" Text="小菜一盤30元"></asp:Label>
+            <asp:Label ID="L2" runat="server" Text="小菜一盤 30元"></asp:Label>
 
             <asp:DropDownList ID="DropDownList1" runat="server" Font-Size="Medium" Font-Strikeout="False" Font-Underline="False" Height="40px" Width="100px" Font-Bold="False" Font-Italic="False" ValidateRequestMode="Enabled">
                 <asp:ListItem Value="0">不用小菜</asp:ListItem>
