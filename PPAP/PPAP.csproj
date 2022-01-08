@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.aspx" />
+    <Content Include="2.aspx" />
     <Content Include="Global.asax" />
     <None Include="Markdown.md" />
     <Content Include="PPAP.aspx" />
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="1.aspx.designer.cs">
       <DependentUpon>1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2.aspx.cs">
+      <DependentUpon>2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2.aspx.designer.cs">
+      <DependentUpon>2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
