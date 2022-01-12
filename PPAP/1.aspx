@@ -86,8 +86,11 @@
                 <asp:ListItem Value="2">綠茶</asp:ListItem>
                 <asp:ListItem Value="3">可爾必思</asp:ListItem>
             </asp:DropDownList><br /> <br/>
-            <asp:Button ID="B1" runat="server" Text="前往結帳" /> <asp:Button ID="B2" runat="server" Text="取消點餐" OnClick="B2_Click" /><br />
-            <asp:Label ID="Label7" runat="server" Text=""></asp:Label>
+            <asp:Button ID="B5" runat="server" Text="結算金額" OnClick="B5_Click" />
+            <asp:Button ID="B1" runat="server" Text="前往結帳" OnClick="B1_Click"  PostBackUrl="~/2.aspx"/> <asp:Button ID="B2" runat="server" Text="取消點餐" OnClick="B2_Click" /><br />
+            <asp:Label ID="Label7" runat="server" Text="金額是"></asp:Label>
+
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 
         </div>
     </form>
