@@ -86,7 +86,8 @@
                 <asp:ListItem Value="2">綠茶</asp:ListItem>
                 <asp:ListItem Value="3">可爾必思</asp:ListItem>
             </asp:DropDownList><br /> <br/>
-            <asp:Button ID="B1" runat="server" Text="前往結帳" /> <asp:Button ID="B2" runat="server" Text="取消點餐" />
+            <asp:Button ID="B1" runat="server" Text="前往結帳" /> <asp:Button ID="B2" runat="server" Text="取消點餐" OnClick="B2_Click" /><br />
+            <asp:Label ID="Label7" runat="server" Text=""></asp:Label>
 
         </div>
     </form>
