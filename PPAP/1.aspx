@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div aria-atomic="False" aria-disabled="False" aria-grabbed="true">
-            <asp:Label ID="L1" runat="server" Text="主菜"></asp:Label><br />
+            <asp:Label ID="L1" runat="server" Text="主菜" Font-Size="X-Large"></asp:Label><br />
             <asp:CheckBox ID="CheckBox1" runat="server" Text="牛肉麵$100" />     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     <asp:Label ID="Label2" runat="server" Text="數量"></asp:Label> 
             &nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="DropDownList3" runat="server" Height="25px" Width="50px">
@@ -60,7 +60,8 @@
                 <asp:ListItem>4</asp:ListItem>
                 <asp:ListItem>5</asp:ListItem>
             </asp:DropDownList>
-            <br />
+            <br /><br/>
+            <asp:Label ID="L98" runat="server" Text="小菜" Font-Size="X-Large"></asp:Label><br />
             <asp:Label ID="L2" runat="server" Text="小菜一盤 30元"></asp:Label>
 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -74,7 +75,7 @@
                 <asp:ListItem Value="5">豆芽菜</asp:ListItem>
             </asp:DropDownList><br /> <br/>
 
-
+            <asp:Label ID="Labe99" runat="server" Text="飲料" Font-Size="X-Large"></asp:Label><br />
 
             <asp:Label ID="Label1" runat="server" Text="飲料一瓶25元"></asp:Label>
 
@@ -87,8 +88,8 @@
                 <asp:ListItem Value="3">可爾必思</asp:ListItem>
             </asp:DropDownList><br /> <br/>
             <asp:Button ID="B5" runat="server" Text="結算金額" OnClick="B5_Click" />
-            <asp:Button ID="B1" runat="server" Text="前往結帳" OnClick="B1_Click"  PostBackUrl="~/2.aspx"/> <asp:Button ID="B2" runat="server" Text="取消點餐" OnClick="B2_Click" /><br />
-            <asp:Label ID="Label7" runat="server" Text="金額是"></asp:Label>
+            <asp:Button ID="B1" runat="server" Text="前往結帳" OnClick="B1_Click"  PostBackUrl="~/2.aspx"/> <asp:Button ID="B2" runat="server" Text="取消點餐" OnClick="B2_Click" /><br /><br />
+            <asp:Label ID="Label7" runat="server" Text="您的餐點金額為"></asp:Label>
 
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 

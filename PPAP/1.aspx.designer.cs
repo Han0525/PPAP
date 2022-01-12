@@ -168,6 +168,15 @@ namespace PPAP
         protected global::System.Web.UI.WebControls.DropDownList DropDownList7;
 
         /// <summary>
+        /// L98 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label L98;
+
+        /// <summary>
         /// L2 控制項。
         /// </summary>
         /// <remarks>
@@ -184,6 +193,15 @@ namespace PPAP
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+
+        /// <summary>
+        /// Labe99 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Labe99;
 
         /// <summary>
         /// Label1 控制項。
