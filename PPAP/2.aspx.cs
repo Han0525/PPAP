@@ -11,8 +11,13 @@ namespace PPAP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = "結算完成，金額是:" + Request.Form.Get("TextBox1");
+            if(IsPostBack == false)
+            {
+                Label1.Text = "結算完成，金額是:" + Request.Form.Get("TextBox1") + "元";
+            }
         }
+           
+        
 
         protected void Button1_Click(object sender, EventArgs e)
         {
